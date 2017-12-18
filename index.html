@@ -7,8 +7,9 @@
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/index.css">
 	<link rel="stylesheet" href="font_/iconfont.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
 </head>
-<body>
+<body id="xiaomi">
 	<!-- 头部开始 -->
 	<div class="head">
 		<div class="head-neikuan">
@@ -26,7 +27,7 @@
 			    <a href="" class="head-wenzi">登录</a>
 				<a href="" class="head-wenzi">注册</a>
 				<a href="" class="head-wenzi">消息通知</a>
-				<div class="car"><span class="iconfont icon-gouwuchekong"></span>购物车(0)</div>
+				<div class="car"><span class="iconfont icon-gouwuchekong">购物车(0)</span></div>
 				
 			</div>
 		</div>
@@ -48,10 +49,99 @@
 			<span class="nav-wenzi">服务</span>
 			<span class="nav-wenzi">社区</span>
 		</div>
-		<div class="nav-right2"></div>
-		<div class="nav-right1"></div>
+		<div class="nav-right">
+			<div class="nav-right1">
+				<input type="text" placeholder=" 请输入搜索内容">
+			</div>
+			<div class="nav-right2">
+				<input type="submit" class="iconfont icon-sousuo" value="&#xe63b;">
+			</div>
+			
+		</div>
+		
 	</div>
 	<!-- 导航结束 -->
+
+	<!-- banner开始 -->
+	<div class="banner swiper-container "id="swiper1" >
+		<div class="banner-img swiper-wrapper">
+			<div class="swiper-slide">
+				<img src="img/b1.jpg" alt="">
+			</div>
+			<div class="swiper-slide">
+				<img src="img/b2.jpg" alt="">
+			</div>
+			<div class="swiper-slide">
+				<img src="img/b3.jpg" alt="">
+			</div>
+			<div class="swiper-slide">
+				<img src="img/b4.jpg" alt="">
+			</div>
+			<div class="swiper-slide">
+				<img src="img/b5.jpg" alt="">
+			</div>
+		</div>
+		<!-- 如果需要分页器 -->
+			<div class="swiper-pagination banner-btn-d"></div>
+		
+		 <!-- 如果需要导航按钮 -->
+	    <div class="swiper-button-prev banner-btn-1 iconfont icon-fanhui"></div>
+	    <div class="swiper-button-next banner-btn-2 iconfont icon-qianwang"></div>
+		<ul class="banner-nav">
+			<li class="banner-nav1">
+				<a href="">
+					<span>手机 电话卡</span>
+					<span class="banner-nav-jiantou">&gt;</span>
+				</a>
+
+				<a href="">
+					<span>笔记本</span>
+					<span class="banner-nav-jiantou">&gt;</span>
+				</a>
+
+				<a href="">
+					<span>电视盒子</span>
+					<span class="banner-nav-jiantou">&gt;</span>
+				</a>
+				
+				<a href="">
+					<span>路由器 智能硬件</span>
+					<span class="banner-nav-jiantou">&gt;</span>
+				</a>
+
+				<a href="">
+					<span>移动电源 电源 插线板</span>
+					<span class="banner-nav-jiantou">&gt;</span>
+				</a>
+
+				<a href="">
+					<span>耳机 音箱</span>
+					<span class="banner-nav-jiantou">&gt;</span>
+				</a>
+
+				<a href="">
+					<span>保护套 贴膜</span>
+					<span class="banner-nav-jiantou">&gt;</span>
+				</a>
+
+				<a href="">
+					<span>线材 支架 储存卡</span>
+					<span class="banner-nav-jiantou">&gt;</span>
+				</a>
+
+				<a href="">
+					<span>箱包 服饰 鞋 眼镜</span>
+					<span class="banner-nav-jiantou">&gt;</span>
+				</a>
+
+				<a href="">
+					<span>米兔 生活周边</span>
+					<span class="banner-nav-jiantou">&gt;</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<!-- banner结束 -->
 
 	<!-- banner下列表开始 -->
 	<ul class="bannerlist">
@@ -103,6 +193,7 @@
 		<li><img src="img/fen.jpg" alt=""></li>
 	</ul>
 	<!-- banner下列表结束 -->
+
 	<!-- 单品开始 -->
 	<div class="danpin">
 		<div class="danpin-top">
@@ -176,6 +267,10 @@
 					<a href="" class="jiadian-item2">小米电视4 55英寸</a>
 					<p class="jiadian-item3">4.9mm 极超薄高端旗舰电视</p>
 					<spen class="jiadian-item4">4499元</spen>
+					<div class="jiadian-tan">
+						<p>突然间成了米粉了！从购买了90分登机箱后，被小米产品...</p>
+						<span>来自于题哦虽然的评价</span>
+					</div>
 				</li>
 
 				<li class="jiadian-item">
@@ -185,6 +280,10 @@
 					<a href="" class="jiadian-item2">小米电视4A 49英寸 标准版</a>
 					<p class="jiadian-item3">2GB+8GB 大储存 全高清HDR</p>
 					<spen class="jiadian-item4">4499元</spen>
+					<div class="jiadian-tan">
+						<p>突然间成了米粉了！从购买了90分登机箱后，被小米产品...</p>
+						<span>来自于题哦虽然的评价</span>
+					</div>
 				</li>
 
 				<li class="jiadian-item">
@@ -194,6 +293,10 @@
 					<a href="" class="jiadian-item2">小米笔记本Pro 15.6英寸</a>
 					<p class="jiadian-item3">全金属强化机身/FHD全贴合屏幕</p>
 					<spen class="jiadian-item4">5599元</spen>
+					<div class="jiadian-tan">
+						<p>突然间成了米粉了！从购买了90分登机箱后，被小米产品...</p>
+						<span>来自于题哦虽然的评价</span>
+					</div>
 				</li>
 
 				<li class="jiadian-item">
@@ -203,6 +306,10 @@
 					<a href="" class="jiadian-item2">小米笔记本Air 13.3英寸 i7处理器</a>
 					<p class="jiadian-item3"> i7处理器Intel酷睿i7处理器，8GB内存+256GB</p>
 					<spen class="jiadian-item4">5999元</spen>
+					<div class="jiadian-tan">
+						<p>突然间成了米粉了！从购买了90分登机箱后，被小米产品...</p>
+						<span>来自于题哦虽然的评价</span>
+					</div>
 				</li>
 
 				<li class="jiadian-item">
@@ -212,6 +319,10 @@
 					<a href="" class="jiadian-item2">米家压力IH电饭煲</a>
 					<p class="jiadian-item3">智能烹饪，灰铸铁粉体涂层内胆</p>
 					<spen class="jiadian-item4">999元</spen>
+					<div class="jiadian-tan">
+						<p>突然间成了米粉了！从购买了90分登机箱后，被小米产品...</p>
+						<span>来自于题哦虽然的评价</span>
+					</div>
 				</li>
 
 				<li class="jiadian-item">
@@ -221,6 +332,10 @@
 					<a href="" class="jiadian-item2">米家激光投影电视</a>
 					<p class="jiadian-item3">150英寸超大投影尺寸</p>
 					<spen class="jiadian-item4">9999元</spen>
+					<div class="jiadian-tan">
+						<p>突然间成了米粉了！从购买了90分登机箱后，被小米产品...</p>
+						<span>来自于题哦虽然的评价</span>
+					</div>
 				</li>
 
 				<li class="jiadian-item">
@@ -230,6 +345,10 @@
 					<a href="" class="jiadian-item2">智米除菌加湿器</a>
 					<p class="jiadian-item3">UVGI紫外线除菌，便捷上注水设计</p>
 					<spen class="jiadian-item4">799元</spen>
+					<div class="jiadian-tan">
+						<p>突然间成了米粉了！从购买了90分登机箱后，被小米产品...</p>
+						<span>来自于题哦虽然的评价</span>
+					</div>
 				</li>
 
 				<li class="jiadian-item-s">
@@ -283,6 +402,10 @@
 					<a href="" class="jiadian-item2">米家LED 智能台灯</a>
 					<p class="jiadian-item3">无可视频闪 四种场景优化调光</p>
 					<spen class="jiadian-item4">169元</spen>
+					<div class="jiadian-tan">
+						<p>突然间成了米粉了！从购买了90分登机箱后，被小米产品...</p>
+						<span>来自于题哦虽然的评价</span>
+					</div>
 				</li>
 
 				<li class="jiadian-item">
@@ -292,6 +415,10 @@
 					<a href="" class="jiadian-item2">九号平衡车 Plus</a>
 					<p class="jiadian-item3">35km超长续航，一键自动跟随</p>
 					<spen class="jiadian-item4">3499元</spen>
+					<div class="jiadian-tan">
+						<p>突然间成了米粉了！从购买了90分登机箱后，被小米产品...</p>
+						<span>来自于题哦虽然的评价</span>
+					</div>
 				</li>
 
 				<li class="jiadian-item">
@@ -301,6 +428,10 @@
 					<a href="" class="jiadian-item2">米兔智能故事机</a>
 					<p class="jiadian-item3">微信远程交互，智能语音交互</p>
 					<spen class="jiadian-item4">199元</spen>
+					<div class="jiadian-tan">
+						<p>突然间成了米粉了！从购买了90分登机箱后，被小米产品...</p>
+						<span>来自于题哦虽然的评价</span>
+					</div>
 				</li>
 
 				<li class="jiadian-item">						
@@ -310,6 +441,10 @@
 					<a href="" class="jiadian-item2">米家恒温电水壶</a>
 					<p class="jiadian-item3"> 水温智能控制，304不锈钢内胆</p>
 					<spen class="jiadian-item4">199元</spen>
+					<div class="jiadian-tan">
+						<p>突然间成了米粉了！从购买了90分登机箱后，被小米产品...</p>
+						<span>来自于题哦虽然的评价</span>
+					</div>
 				</li>
 
 				<li class="jiadian-item">
@@ -319,6 +454,10 @@
 					<a href="" class="jiadian-item2">小米体脂秤</a>
 					<p class="jiadian-item3">简约纤薄，隐藏式LED显示屏</p>
 					<spen class="jiadian-item4">199元</spen>
+					<div class="jiadian-tan">
+						<p>突然间成了米粉了！从购买了90分登机箱后，被小米产品...</p>
+						<span>来自于题哦虽然的评价</span>
+					</div>
 				</li>
 
 				<li class="jiadian-item">
@@ -328,6 +467,10 @@
 					<a href="" class="jiadian-item2">小米手环2</a>
 					<p class="jiadian-item3">OLED显示屏幕，升级计算步法</p>
 					<spen class="jiadian-item4">149元</spen>
+					<div class="jiadian-tan">
+						<p>突然间成了米粉了！从购买了90分登机箱后，被小米产品...</p>
+						<span>来自于题哦虽然的评价</span>
+					</div>
 				</li>
 
 				<li class="jiadian-item">
@@ -337,6 +480,10 @@
 					<a href="" class="jiadian-item2">米家iHealth血压计</a>
 					<p class="jiadian-item3">爸妈上手就会用的智能血压器</p>
 					<spen class="jiadian-item4">399元</spen>
+					<div class="jiadian-tan">
+						<p>突然间成了米粉了！从购买了90分登机箱后，被小米产品...</p>
+						<span>来自于题哦虽然的评价</span>
+					</div>
 				</li>
 
 				<li class="jiadian-item-s">
@@ -364,7 +511,7 @@
 	<!-- 搭配开始 -->
 	 <div class="jiadian">
 		<div class="jiadian-top">
-			<h2>智能</h2>
+			<h2>搭配</h2>
 			<div class="jiadian-xuan">
 				<span class="jiadian-xuan-active">热门</span>
 				<span>耳机音箱</span>
@@ -389,6 +536,10 @@
 					<a href="" class="jiadian-item2">小米AI音箱</a>
 					<spen class="jiadian-item4-dapei">299元</spen>
 					<p class="jiadian-item3-dapei">1.2万人评价</p>
+					<div class="jiadian-tan">
+						<p>突然间成了米粉了！从购买了90分登机箱后，被小米产品...</p>
+						<span>来自于题哦虽然的评价</span>
+					</div>
 				</li>
 
 				<li class="jiadian-item">
@@ -398,6 +549,10 @@
 					<a href="" class="jiadian-item2">小米运动蓝牙耳机</a>
 					<spen class="jiadian-item4-dapei">129元</spen>
 					<p class="jiadian-item3-dapei">2万人评价</p>
+					<div class="jiadian-tan">
+						<p>突然间成了米粉了！从购买了90分登机箱后，被小米产品...</p>
+						<span>来自于题哦虽然的评价</span>
+					</div>
 				</li>
 
 				<li class="jiadian-item">
@@ -407,6 +562,10 @@
 					<a href="" class="jiadian-item2">10000ah小米移动电源</a>
 					<spen class="jiadian-item4-dapei">79元</spen>
 					<p class="jiadian-item3-dapei">6.3万人评价</p>
+					<div class="jiadian-tan">
+						<p>突然间成了米粉了！从购买了90分登机箱后，被小米产品...</p>
+						<span>来自于题哦虽然的评价</span>
+					</div>
 				</li>
 
 				<li class="jiadian-item">						
@@ -416,6 +575,10 @@
 					<a href="" class="jiadian-item2">10000AH小米移动电源高配版</a>
 					<spen class="jiadian-item4-dapei">149元</spen>
 					<p class="jiadian-item3-dapei">1.4万人评价</p>
+					<div class="jiadian-tan">
+						<p>突然间成了米粉了！从购买了90分登机箱后，被小米产品...</p>
+						<span>来自于题哦虽然的评价</span>
+					</div>
 				</li>
 
 				<li class="jiadian-item">
@@ -425,6 +588,10 @@
 					<a href="" class="jiadian-item2">小米降噪耳机</a>
 					<spen class="jiadian-item4-dapei">299元</spen>
 					<p class="jiadian-item3-dapei">63人评价</p>
+					<div class="jiadian-tan">
+						<p>突然间成了米粉了！从购买了90分登机箱后，被小米产品...</p>
+						<span>来自于题哦虽然的评价</span>
+					</div>
 				</li>
 
 				<li class="jiadian-item">
@@ -434,6 +601,10 @@
 					<a href="" class="jiadian-item2">小米活塞耳机</a>
 					<spen class="jiadian-item4-dapei">29元</spen>
 					<p class="jiadian-item3-dapei">7.3万人评价</p>
+					<div class="jiadian-tan">
+						<p>突然间成了米粉了！从购买了90分登机箱后，被小米产品...</p>
+						<span>来自于题哦虽然的评价</span>
+					</div>
 				</li>
 
 				<li class="jiadian-item">
@@ -443,6 +614,10 @@
 					<a href="" class="jiadian-item2">小米移动电源2G 200AH</a>
 					<spen class="jiadian-item4-dapei">128元</spen>
 					<p class="jiadian-item3-dapei">5084人评价</p>
+					<div class="jiadian-tan">
+						<p>突然间成了米粉了！从购买了90分登机箱后，被小米产品...</p>
+						<span>来自于题哦虽然的评价</span>
+					</div>
 				</li>
 
 				<li class="jiadian-item-s">
@@ -467,6 +642,140 @@
 	</div>
 	<!-- 搭配结束 -->
 
+	<!-- 配件开始 -->
+	 <div class="jiadian">
+		<div class="jiadian-top">
+			<h2>配件</h2>
+			<div class="jiadian-xuan">
+				<span class="jiadian-xuan-active">热门</span>
+				<span>保护套</span>
+				<span>贴膜</span>
+				<span>其他配件</span>
+			</div>
+		</div>
+		<div class="jiadian-bottom">
+			<div class="jiadian-left">
+				<div class="jiadian-left1">
+					<img src="img/p1.jpg" alt="">
+				</div>
+				<div class="jiadian-left1">
+					<img src="img/p2.jpg" alt="">
+				</div>
+			</div>
+			<ul class="jiadian-right">
+				<li class="jiadian-item">
+					<a href="" class="jiadian-item1">
+						<img src="img/p3.jpg" alt="">
+					</a>
+					<a href="" class="jiadian-item2">MIX 2全陶瓷版极简保护壳</a>
+					<spen class="jiadian-item4-dapei">39元</spen>
+					<p class="jiadian-item3-dapei">124人评价</p>
+					<div class="jiadian-tan">
+						<p>突然间成了米粉了！从购买了90分登机箱后，被小米产品...</p>
+						<span>来自于题哦虽然的评价</span>
+					</div>
+				</li>
+
+				<li class="jiadian-item">
+					<a href="" class="jiadian-item1">
+						<img src="img/p4.jpg" alt="">
+					</a>
+					<a href="" class="jiadian-item2">小米6 硅胶保护套</a>
+					<spen class="jiadian-item4-dapei">49元</spen>
+					<p class="jiadian-item3-dapei">8042人评价</p>
+					<div class="jiadian-tan">
+						<p>突然间成了米粉了！从购买了90分登机箱后，被小米产品...</p>
+						<span>来自于题哦虽然的评价</span>
+					</div>
+				</li>
+
+				<li class="jiadian-item">
+					<a href="" class="jiadian-item1">
+						<img src="img/p5.jpg" alt="">
+					</a>
+					<a href="" class="jiadian-item2">小米6 硅胶保护套</a>
+					<spen class="jiadian-item4-dapei">29元</spen>
+					<p class="jiadian-item3-dapei">9417人评价</p>
+					<div class="jiadian-tan">
+						<p>突然间成了米粉了！从购买了90分登机箱后，被小米产品...</p>
+						<span>来自于题哦虽然的评价</span>
+					</div>
+				</li>
+
+				<li class="jiadian-item">						
+					<a href="" class="jiadian-item1">
+						<img src="img/p6.jpg" alt="">
+					</a>
+					<a href="" class="jiadian-item2">小米Note 3 智能立显半透保护套</a>
+					<spen class="jiadian-item4-dapei">69元</spen>
+					<p class="jiadian-item3-dapei">177人评价</p>
+					<div class="jiadian-tan">
+						<p>突然间成了米粉了！从购买了90分登机箱后，被小米产品...</p>
+						<span>来自于题哦虽然的评价</span>
+					</div>
+				</li>
+
+				<li class="jiadian-item">
+					<a href="" class="jiadian-item1">
+						<img src="img/p7.jpg" alt="">
+					</a>
+					<a href="" class="jiadian-item2">小米6 标准高透贴膜</a>
+					<spen class="jiadian-item4-dapei">19元</spen>
+					<p class="jiadian-item3-dapei">1万人评价</p>
+					<div class="jiadian-tan">
+						<p>突然间成了米粉了！从购买了90分登机箱后，被小米产品...</p>
+						<span>来自于题哦虽然的评价</span>
+					</div>
+				</li>
+
+				<li class="jiadian-item">
+					<a href="" class="jiadian-item1">
+						<img src="img/p8.jpg" alt="">
+					</a>
+					<a href="" class="jiadian-item2">小米6 超薄皮质保护套</a>
+					<spen class="jiadian-item4-dapei">39元</spen>
+					<p class="jiadian-item3-dapei">1913人评价</p>
+					<div class="jiadian-tan">
+						<p>突然间成了米粉了！从购买了90分登机箱后，被小米产品...</p>
+						<span>来自于题哦虽然的评价</span>
+					</div>
+				</li>
+
+				<li class="jiadian-item">
+					<a href="" class="jiadian-item1">
+						<img src="img/p9.jpg" alt="">
+					</a>
+					<a href="" class="jiadian-item2">小米5X 智能显示保护套</a>
+					<spen class="jiadian-item4-dapei">49元</spen>
+					<p class="jiadian-item3-dapei">36人评价</p>
+					<div class="jiadian-tan">
+						<p>突然间成了米粉了！从购买了90分登机箱后，被小米产品...</p>
+						<span>来自于题哦虽然的评价</span>
+					</div>
+				</li>
+
+				<li class="jiadian-item-s">
+					<div class="jiadian-wenzi">
+						<span class="jiadian-item2">小米6 高透...</span>
+						<span class="jiadian-item4">19.9元</span>
+					</div>
+					<a href="" class="jiandian-img">
+						<img src="img/p10.jpg" alt="">
+					</a>
+				</li>
+				<li class="jiadian-item-s">
+					<div class="jiadian-wenzi">
+						<span class="jiadian-item5">浏览更多</span>
+						<span class="jiadian-item3">热门</span>
+					</div>
+					<a href="" class="jiandian-img">
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- 配件结束 -->
+
 	<!-- 周边开始 -->
 	 <div class="jiadian">
 		<div class="jiadian-top">
@@ -482,67 +791,96 @@
 		<div class="jiadian-bottom">
 			<div class="jiadian-left">
 				<div class="jiadian-left1">
-					<img src="img/dp1.jpg" alt="">
+					<img src="img/z1.jpg" alt="">
 				</div>
 				<div class="jiadian-left1">
-					<img src="img/dp6.jpg" alt="">
+					<img src="img/z2.jpg" alt="">
 				</div>
 			</div>
 			<ul class="jiadian-right">
 				<li class="jiadian-item">
 					<a href="" class="jiadian-item1">
-						<img src="img/dp2.jpg" alt="">
+						<img src="img/z3.jpg" alt="">
 					</a>
 					<a href="" class="jiadian-item2">小米AI音箱</a>
 					<spen class="jiadian-item4-dapei">299元</spen>
+					<div class="jiadian-tan">
+						<p>突然间成了米粉了！从购买了90分登机箱后，被小米产品...</p>
+						<span>来自于题哦虽然的评价</span>
+					</div>
 				</li>
 
 				<li class="jiadian-item">
 					<a href="" class="jiadian-item1">
-						<img src="img/dp3.jpg" alt="">
+						<img src="img/z4.jpg" alt="">
 					</a>
 					<a href="" class="jiadian-item2">小米运动蓝牙耳机</a>
 					<spen class="jiadian-item4-dapei">129元</spen>
+					<div class="jiadian-tan">
+						<p>突然间成了米粉了！从购买了90分登机箱后，被小米产品...</p>
+						<span>来自于题哦虽然的评价</span>
+					</div>
+
 				</li>
 
 				<li class="jiadian-item">
 					<a href="" class="jiadian-item1">
-						<img src="img/dp4.jpg" alt="">
+						<img src="img/z5.jpg" alt="">
 					</a>
 					<a href="" class="jiadian-item2">10000ah小米移动电源</a>
 					<spen class="jiadian-item4-dapei">79元</spen>
+					<div class="jiadian-tan">
+						<p>突然间成了米粉了！从购买了90分登机箱后，被小米产品...</p>
+						<span>来自于题哦虽然的评价</span>
+					</div>
 				</li>
 
 				<li class="jiadian-item">						
 					<a href="" class="jiadian-item1">
-						<img src="img/dp5.jpg" alt="">
+						<img src="img/z6.jpg" alt="">
 					</a>
 					<a href="" class="jiadian-item2">10000AH小米移动电源高配版</a>
 					<spen class="jiadian-item4-dapei">149元</spen>
+					<div class="jiadian-tan">
+						<p>突然间成了米粉了！从购买了90分登机箱后，被小米产品...</p>
+						<span>来自于题哦虽然的评价</span>
+					</div>
 				</li>
 
 				<li class="jiadian-item">
 					<a href="" class="jiadian-item1">
-						<img src="img/dp7.jpg" alt="">
+						<img src="img/z7.jpg" alt="">
 					</a>
 					<a href="" class="jiadian-item2">小米降噪耳机</a>
 					<spen class="jiadian-item4-dapei">299元</spen>
+					<div class="jiadian-tan">
+						<p>突然间成了米粉了！从购买了90分登机箱后，被小米产品...</p>
+						<span>来自于题哦虽然的评价</span>
+					</div>
 				</li>
 
 				<li class="jiadian-item">
 					<a href="" class="jiadian-item1">
-						<img src="img/dp8.jpg" alt="">
+						<img src="img/z8.jpg" alt="">
 					</a>
 					<a href="" class="jiadian-item2">小米活塞耳机</a>
 					<spen class="jiadian-item4-dapei">29元</spen>
+					<div class="jiadian-tan">
+						<p>突然间成了米粉了！从购买了90分登机箱后，被小米产品...</p>
+						<span>来自于题哦虽然的评价</span>
+					</div>
 				</li>
 
 				<li class="jiadian-item">
 					<a href="" class="jiadian-item1">
-						<img src="img/dp9.jpg" alt="">
+						<img src="img/z9.jpg" alt="">
 					</a>
 					<a href="" class="jiadian-item2">小米移动电源2G 200AH</a>
 					<spen class="jiadian-item4-dapei">128元</spen>
+					<div class="jiadian-tan">
+						<p>突然间成了米粉了！从购买了90分登机箱后，被小米产品...</p>
+						<span>来自于题哦虽然的评价</span>
+					</div>
 				</li>
 
 				<li class="jiadian-item-s">
@@ -551,7 +889,7 @@
 						<span class="jiadian-item4">1599元</span>
 					</div>
 					<a href="" class="jiandian-img">
-						<img src="img/dp10.jpg" alt="">
+						<img src="img/z10.jpg" alt="">
 					</a>
 				</li>
 				<li class="jiadian-item-s">
@@ -577,39 +915,39 @@
 			</div>
 		</div>
 		<div class="danpin-bottom">
-			<div class="danpin-item">
-				<div class="danpin-item1"><img src="img/shouji.png" alt=""></div>
-				<a href="" class="danpin-iten2">小米mix 2</a>
-				<spen class="danpin-item4">1444元起</spen>
-				<spen class="danpin-item3">大屏大电量，轻薄全金属</spen>
+			<div class="danpin-item kuang">
+				<div class="danpin-item1"><img src="img/t1.jpg" alt=""></div>
+				<a href="" class="danpin-iten2">小米Note 3 全网通版 6GB内存</a>
+				<spen class="danpin-item4">2299元</spen>
+				<spen class="danpin-item3">1.4万人好评</spen>
 			</div>
 
-			<div class="danpin-item">
-				<div class="danpin-item1"><img src="img/shouji2.png" alt=""></div>
-				<a href="" class="danpin-iten2">红米Note 5A 高配版</a>
+			<div class="danpin-item kuang">
+				<div class="danpin-item1"><img src="img/t2.jpg" alt=""></div>
+				<a href="" class="danpin-iten2">红米Note 5A 全网通版 3GB内存 </a>
 				<spen class="danpin-item4">899元</spen>
-				<spen class="danpin-item3">1600万像素柔光自拍</spen>
+				<spen class="danpin-item3">3.6万人好评</spen>
 			</div>
 
-			<div class="danpin-item">
-				<div class="danpin-item1"><img src="img/shouji1.png" alt=""></div>
-				<a href="" class="danpin-iten2">899元</a>
-				<spen class="danpin-item4">999元起</spen>
-				<spen class="danpin-item3">4100mAh超长续航，多彩金属</spen>
+			<div class="danpin-item kuang">
+				<div class="danpin-item1"><img src="img/t3.jpg" alt=""></div>
+				<a href="" class="danpin-iten2">小米净水器滤芯</a>
+				<spen class="danpin-item4">69元起</spen>
+				<spen class="danpin-item3">2.9万人好评</spen>
 			</div>
 
-			<div class="danpin-item">
-				<div class="danpin-item1"><img src="img/dianshi.png" alt=""></div>
-				<a href="" class="danpin-iten2">小米电视4A 43英寸 标准版</a>
-				<spen class="danpin-item4">1999元起</spen>
-				<spen class="danpin-item3">全高清HDR 四核高性能处理器</spen>
+			<div class="danpin-item kuang">
+				<div class="danpin-item1"><img src="img/t4.jpg" alt=""></div>
+				<a href="" class="danpin-iten2">小米平板3</a>
+				<spen class="danpin-item4">1499元起</spen>
+				<spen class="danpin-item3">3.4万人好评</spen>
 			</div>
 
-			<div class="danpin-item">
-				<div class="danpin-item1"><img src="img/bijiben.png" alt=""></div>
-				<a href="" class="danpin-iten2">小米笔记本</a>
-				<spen class="danpin-item4">3599元起</spen>
-				<spen class="danpin-item3">更轻更薄，像杂志一样随身携带</spen>
+			<div class="danpin-item kuang">
+				<div class="danpin-item1"><img src="img/t5.jpg" alt=""></div>
+				<a href="" class="danpin-iten2">小米插线板（含3口USB 2A快</a>
+				<spen class="danpin-item4">49元起</spen>
+				<spen class="danpin-item3">1.4万人好评</spen>
 			</div>
 
 		</div>
@@ -634,62 +972,737 @@
 		</div>
 
 		<div class="reping-item">
-			<div class="reping-item1"><img src="img/r1.jpg" alt=""></div>
+			<div class="reping-item1"><img src="img/rp2.jpg" alt=""></div>
 			<p class="reping-a">
-				<a href="" class="reping-item2">东西真心不错，用过最好用的插线板，做工外观没得挑剔，3个USB接口很实用，充电快，建议不包邮的应该在...</a>
+				<a href="" class="reping-item2">超级喜欢！小巧玲珑！音质完美！不知道为什么！只要是小米出的东西我都喜欢！那倒是因为那一句？？小米为发...</a>
 			</p>
-			<p class="reping-item3">来自于 追逆 的评价</p>
+			<p class="reping-item3">来自于 田密 的评价</p>
 			<p class="reping-a1">
-				<a href="" class="reping-item4">小米插线板</a>
+				<a href="" class="reping-item4">小米随身蓝牙音箱</a>
 			</p>
-			<p class="reping-item5">49元</p>
+			<p class="reping-item5">69元</p>
 		</div>
 
 		<div class="reping-item">
-			<div class="reping-item1"><img src="img/r1.jpg" alt=""></div>
+			<div class="reping-item1"><img src="img/rp3.jpg" alt=""></div>
 			<p class="reping-a">
-				<a href="" class="reping-item2">东西真心不错，用过最好用的插线板，做工外观没得挑剔，3个USB接口很实用，充电快，建议不包邮的应该在...</a>
+				<a href="" class="reping-item2">很小巧 像不喜欢戴活塞的人,可以试试这种~很舒服包装还是一如既往的简洁 要是有盒子就好了=￣ω￣=</a>
 			</p>
-			<p class="reping-item3">来自于 追逆 的评价</p>
+			<p class="reping-item3">来自于 鹤唳 的评价</p>
 			<p class="reping-a1">
-				<a href="" class="reping-item4">小米插线板</a>
+				<a href="" class="reping-item4">小米胶囊耳机 </a>
 			</p>
-			<p class="reping-item5">49元</p>
+			<p class="reping-item5">69元</p>
 		</div>
 
 		<div class="reping-item ">
-			<div class="reping-item1"><img src="img/r1.jpg" alt=""></div>
+			<div class="reping-item1"><img src="img/rp4.jpg" alt=""></div>
 			<p class="reping-a">
-				<a href="" class="reping-item2">东西真心不错，用过最好用的插线板，做工外观没得挑剔，3个USB接口很实用，充电快，建议不包邮的应该在...</a>
+				<a href="" class="reping-item2">包装很让人感动，式样也很可爱，做出的饭全家人都爱吃，超爱五星！手机控制还是不太熟练，最主要是没有连接...</a>
 			</p>
-			<p class="reping-item3">来自于 追逆 的评价</p>
+			<p class="reping-item3">来自于 HZG 的评价</p>
 			<p class="reping-a1">
-				<a href="" class="reping-item4">小米插线板</a>
+				<a href="" class="reping-item4">压力IH电饭煲</a>
 			</p>
-			<p class="reping-item5">49元</p>
+			<p class="reping-item5">999元</p>
 		</div>
 	</div>
 	<!-- 热评结束 -->
 
 	<!-- 内容开始 -->
-	<div class="neirong">
+	<div class="neirong ">
 		<div class="reping-top">
-			<h1 class="danpin-title">内容</h1>
+			<h1 class="danpin-title ">内容</h1>
 		</div>
-		<li class="neirong-item">
-			<h2 class="neirong-title">图书</h2>
-			<div class="neirong-title1">哈利·波特与被诅咒的孩子</div>
-			<p class="neirong-a">
-				<a href="" class="neirong-title2">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！</a>
-			</p>
+		<li class="neirong-item swiper-container" id="swiper2" >
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<h2 class="neirong-title">图书</h2>
+					<div class="neirong-title1">哈利·波特与被诅咒的孩子</div>
+					<p class="neirong-a">
+						<a href="" class="neirong-title2">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！
+						</a>
+					</p>
+					<p class="neirong-b">
+						<a href="" class="neirong-title3">29.37元</a>
+					</p>
+					<div class="neirong-item1">
+						<a href="" class="neirong-title3">
+							<img src="img/nr1.png" alt="">
+						</a>
+					</div>
+				</div>
+
+				<div class="swiper-slide">
+					<h2 class="neirong-title">图书</h2>
+					<div class="neirong-title1">好吗好的</div>
+					<p class="neirong-a">
+						<a href="" class="neirong-title2">畅销作家大冰2016年新书！讲给你听，好吗好的！</a>
+					</p>
+					<p class="neirong-b">
+						<a href="" class="neirong-title3">29.37元</a>
+					</p>
+					<div class="neirong-item1">
+						<a href="" class="neirong-title3">
+							<img src="img/nr1-1.png" alt="">
+						</a>
+					</div>
+				</div>
+
+				<div class="swiper-slide">
+					<h2 class="neirong-title">图书</h2>
+					<div class="neirong-title1"></div>
+					<p class="neirong-a">
+						<a href="" class="neirong-title2">
+						海量好书，享受精品阅读时光 漂亮的中文排版，千万读者选择！
+						</a>
+					</p>
+					<p class="neirong-b">
+						<a href="" class="neirong-title3"></a>
+					</p>
+					<div class="neirong-item1">
+						<a href="" class="neirong-title3">
+							<img src="img/nr1-2.jpg" alt="">
+						</a>
+					</div>
+				</div>
+				
+	    		
+			</div>
+			<!-- 如果需要分页器 -->
+			<div class="swiper-pagination"></div>
+			<!-- 如果需要导航按钮 -->
+		    <!-- <div class="swiper-button-prev nr-btn-1 iconfont icon-fanhui"></div>
+		    <div class="swiper-button-next nr-btn-2iconfont icon-qianwang"></div> -->
 		</li>
+		
+		<li class="neirong-item swiper-container" id="swiper3" >
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<h2 class="neirong-title">图书</h2>
+					<div class="neirong-title1">哈利·波特与被诅咒的孩子</div>
+					<p class="neirong-a">
+						<a href="" class="neirong-title2">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！
+						</a>
+					</p>
+					<p class="neirong-b">
+						<a href="" class="neirong-title3">29.37元</a>
+					</p>
+					<div class="neirong-item1">
+						<a href="" class="neirong-title3">
+							<img src="img/nr1.png" alt="">
+						</a>
+					</div>
+				</div>
+
+				<div class="swiper-slide">
+					<h2 class="neirong-title">图书</h2>
+					<div class="neirong-title1">好吗好的</div>
+					<p class="neirong-a">
+						<a href="" class="neirong-title2">畅销作家大冰2016年新书！讲给你听，好吗好的！</a>
+					</p>
+					<p class="neirong-b">
+						<a href="" class="neirong-title3">29.37元</a>
+					</p>
+					<div class="neirong-item1">
+						<a href="" class="neirong-title3">
+							<img src="img/nr1-1.png" alt="">
+						</a>
+					</div>
+				</div>
+
+				<div class="swiper-slide">
+					<h2 class="neirong-title">图书</h2>
+					<div class="neirong-title1"></div>
+					<p class="neirong-a">
+						<a href="" class="neirong-title2">
+						海量好书，享受精品阅读时光 漂亮的中文排版，千万读者选择！
+						</a>
+					</p>
+					<p class="neirong-b">
+						<a href="" class="neirong-title3"></a>
+					</p>
+					<div class="neirong-item1">
+						<a href="" class="neirong-title3">
+							<img src="img/nr1-2.jpg" alt="">
+						</a>
+					</div>
+				</div>
+				
+	    		
+			</div>
+			<!-- 如果需要分页器 -->
+			<div class="swiper-pagination"></div>
+			<!-- 如果需要导航按钮 -->
+		    <!-- <div class="swiper-button-prev "></div>
+		    <div class="swiper-button-next "></div> -->
+		</li>
+
+		<li class="neirong-item swiper-container" id="swiper4" >
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<h2 class="neirong-title">图书</h2>
+					<div class="neirong-title1">哈利·波特与被诅咒的孩子</div>
+					<p class="neirong-a">
+						<a href="" class="neirong-title2">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！
+						</a>
+					</p>
+					<p class="neirong-b">
+						<a href="" class="neirong-title3">29.37元</a>
+					</p>
+					<div class="neirong-item1">
+						<a href="" class="neirong-title3">
+							<img src="img/nr1.png" alt="">
+						</a>
+					</div>
+				</div>
+
+				<div class="swiper-slide">
+					<h2 class="neirong-title">图书</h2>
+					<div class="neirong-title1">好吗好的</div>
+					<p class="neirong-a">
+						<a href="" class="neirong-title2">畅销作家大冰2016年新书！讲给你听，好吗好的！</a>
+					</p>
+					<p class="neirong-b">
+						<a href="" class="neirong-title3">29.37元</a>
+					</p>
+					<div class="neirong-item1">
+						<a href="" class="neirong-title3">
+							<img src="img/nr1-1.png" alt="">
+						</a>
+					</div>
+				</div>
+
+				<div class="swiper-slide">
+					<h2 class="neirong-title">图书</h2>
+					<div class="neirong-title1"></div>
+					<p class="neirong-a">
+						<a href="" class="neirong-title2">
+						海量好书，享受精品阅读时光 漂亮的中文排版，千万读者选择！
+						</a>
+					</p>
+					<p class="neirong-b">
+						<a href="" class="neirong-title3"></a>
+					</p>
+					<div class="neirong-item1">
+						<a href="" class="neirong-title3">
+							<img src="img/nr1-2.jpg" alt="">
+						</a>
+					</div>
+				</div>
+				
+	    		
+			</div>
+			<!-- 如果需要分页器 -->
+			<div class="swiper-pagination"></div>
+			<!-- 如果需要导航按钮 -->
+		    <!-- <div class="swiper-button-prev "></div>
+		    <div class="swiper-button-next "></div> -->
+		</li>
+
+		<li class="neirong-item swiper-container" id="swiper5" >
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<h2 class="neirong-title">图书</h2>
+					<div class="neirong-title1">哈利·波特与被诅咒的孩子</div>
+					<p class="neirong-a">
+						<a href="" class="neirong-title2">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！
+						</a>
+					</p>
+					<p class="neirong-b">
+						<a href="" class="neirong-title3">29.37元</a>
+					</p>
+					<div class="neirong-item1">
+						<a href="" class="neirong-title3">
+							<img src="img/nr1.png" alt="">
+						</a>
+					</div>
+				</div>
+
+				<div class="swiper-slide">
+					<h2 class="neirong-title">图书</h2>
+					<div class="neirong-title1">好吗好的</div>
+					<p class="neirong-a">
+						<a href="" class="neirong-title2">畅销作家大冰2016年新书！讲给你听，好吗好的！</a>
+					</p>
+					<p class="neirong-b">
+						<a href="" class="neirong-title3">29.37元</a>
+					</p>
+					<div class="neirong-item1">
+						<a href="" class="neirong-title3">
+							<img src="img/nr1-1.png" alt="">
+						</a>
+					</div>
+				</div>
+
+				<div class="swiper-slide">
+					<h2 class="neirong-title">图书</h2>
+					<div class="neirong-title1"></div>
+					<p class="neirong-a">
+						<a href="" class="neirong-title2">
+						海量好书，享受精品阅读时光 漂亮的中文排版，千万读者选择！
+						</a>
+					</p>
+					<p class="neirong-b">
+						<a href="" class="neirong-title3"></a>
+					</p>
+					<div class="neirong-item1">
+						<a href="" class="neirong-title3">
+							<img src="img/nr1-2.jpg" alt="">
+						</a>
+					</div>
+				</div>
+				
+	    		
+			</div>
+			<!-- 如果需要分页器 -->
+			<div class="swiper-pagination"></div>
+			<!-- 如果需要导航按钮 -->
+		    <!-- <div class="swiper-button-prev "></div>
+		    <div class="swiper-button-next "></div> -->
+		</li>
+
+		<!-- <li class="neirong-item yanse2">
+			<h2 class="neirong-title yanse3">游戏</h2>
+			<div class="neirong-title1">小米超神</div>
+			<p class="neirong-a">
+				<a href="" class="neirong-title2">实力派，一起团！！</a>
+			</p>
+			<p class="neirong-b">
+				<a href="" class="neirong-title3"></a>
+			</p>
+			<div class="neirong-item1">
+				<a href="" class="neirong-title3">
+					<img src="img/nr3.png" alt="">
+				</a>
+			</div>
+			<div class="neirong-item2">
+				<div class="neirong-dian">
+					<div class="dian1">
+						<div class="dian2 dian3"></div>
+					</div>
+					<div class="dian1">
+						<div class="dian2"></div>
+					</div>
+					<div class="dian1">
+						<div class="dian2"></div>
+					</div>
+				</div>	
+			</div>
+		</li>
+
+		<li class="neirong-item yanse4">
+			<h2 class="neirong-title yanse5">应用</h2>
+			<div class="neirong-title1">2017金米奖</div>
+			<p class="neirong-a">
+				<a href="" class="neirong-title2">2017金米奖</a>
+			</p>
+			<p class="neirong-b">
+				<a href="" class="neirong-title3"></a>
+			</p>
+			<div class="neirong-item1">
+				<a href="" class="neirong-title3">
+					<img src="img/nr4.png" alt="">
+				</a>
+			</div>
+			<div class="neirong-item2">
+				<div class="neirong-dian">
+					<div class="dian1">
+						<div class="dian2 dian3"></div>
+					</div>
+					<div class="dian1">
+						<div class="dian2"></div>
+					</div>
+					<div class="dian1">
+						<div class="dian2"></div>
+					</div>
+				</div>	
+			</div>
+		</li> -->
 	</div>
 	<!-- 内容结束 -->
 
 	<!-- 视频开始 -->
+	<div class="shipin">
+		<div class="reping-top">
+			<h1 class="danpin-title">视频</h1>
+			<div class="shipin-right">
+				<a href="" class="shipin-right1">查看全部</a>
+				<span class="iconfont icon-xiayiye1 xiayige"></span>		
+			</div>
+			
+		</div>
+		<div class="shipin-item">
+			<div class="shipin-item1">
+				<a href="" class="">
+					<div class="shipin-img">
+						<img src="img/s1.jpg" alt="">
+					</div>
+				</a>
+				<a href="">
+					<h3 class="shipin-title">雷军与斯塔克打造全面屏2.0</h3>
+				</a>
+				<p class="shipin-title1">一场关于小米MIX 2 极致工艺的巅峰对话</p>
+			</div>
+
+			<div class="shipin-item1">
+				<a href="" class="">
+					<div class="shipin-img">
+						<img src="img/s2.jpg" alt="">
+					</div>
+				</a>
+				<a href="">
+					<h3 class="shipin-title">小米Note 3 与吴亦凡</h3>
+				</a>
+				<p class="shipin-title1">看看小米Note 3 与吴亦凡谁更帅？</p>
+			</div>
+
+			<div class="shipin-item1">
+				<a href="" class="">
+					<div class="shipin-img">
+						<img src="img/s3.jpg" alt="">
+					</div>
+				</a>
+				<a href="">
+					<h3 class="shipin-title">MIUI 9 理念视频</h3>
+				</a>
+				<p class="shipin-title1">快如闪电，前所未有的流畅</p>
+			</div>
+
+			<div class="shipin-item1">
+				<a href="" class="">
+					<div class="shipin-img">
+						<img src="img/s4.jpg" alt="">
+					</div>
+				</a>
+				<a href="">
+					<h3 class="shipin-title">拍人更美的背后故事</h3>
+				</a>
+				<p class="shipin-title1">小米手机工程师采访视频</p>
+			</div>
+
+		</div>
+	</div>
 	<!-- 视频结束 -->
 	</div>
+	<!-- 站点开始 -->
+	<div class="zhandian">
+		<div class="zhandian-neikuan">
+			<div class="zhandian-top">
+				<div class="zhandian-top-left">
+					<a href="">
+						<span class="iconfont  icon-daohang-fuwu-weixiu zhandian1"></span>
+						<span class="zhandian2">预约维修服务</span>
+					</a>
 
+					<a href="">
+						<span class="iconfont  icon-7tian zhandian1"></span>
+						<span class="zhandian2">7天无理由退货</span>
+					</a>
+
+					<a href="">
+						<span class="iconfont  icon-tian zhandian1"></span>
+						<span class="zhandian2">15天免费换货</span>
+					</a>
+
+					<a href="">
+						<span class="iconfont  icon-liwu zhandian1"></span>
+						<span class="zhandian2">满150元包邮</span>
+					</a>
+
+					<a href="">
+						<span class="iconfont  icon-weibiaoti- zhandian1"></span>
+						<span class="zhandian2">520余家售后网点</span>
+					</a>
+				</div>
+			</div>
+			<div class="zhandian-bommot">
+				<div class="zhandian-bommot1">
+					<div class="zhandian-wenzi">
+						<span class="">帮助中心</span>
+					</div>
+					<div href="" class="zhandian-wenzi1">
+						<a href="">帐户管理</a>
+					</div>
+					<div href="" class="zhandian-wenzi1">
+						<a href="">购物指南</a>
+					</div>
+					<div href="" class="zhandian-wenzi1">
+						<a href="">订单操作</a>
+					</div>
+				</div>
+
+				<div class="zhandian-bommot1">
+					<div class="zhandian-wenzi">
+						<span class="">服务支持</span>
+					</div>
+					<div href="" class="zhandian-wenzi1">
+						<a href="">售后政策</a>
+					</div>
+					<div href="" class="zhandian-wenzi1">
+						<a href="">自助服务</a>
+					</div>
+					<div href="" class="zhandian-wenzi1">
+						<a href="">相关下载</a>
+					</div>
+				</div>
+
+				<div class="zhandian-bommot1">
+					<div class="zhandian-wenzi">
+						<span class="">线下门店</span>
+					</div>
+					<div href="" class="zhandian-wenzi1">
+						<a href="">小米之家</a>
+					</div>
+					<div href="" class="zhandian-wenzi1">
+						<a href="">服务网点</a>
+					</div>
+					<div href="" class="zhandian-wenzi1">
+						<a href="">零售网点</a>
+					</div>
+				</div>
+
+				<div class="zhandian-bommot1">
+					<div class="zhandian-wenzi">
+						<span class="">关于小米</span>
+					</div>
+					<div href="" class="zhandian-wenzi1">
+						<a href="">了解小米</a>
+					</div>
+					<div href="" class="zhandian-wenzi1">
+						<a href="">加入小米</a>
+					</div>
+					<div href="" class="zhandian-wenzi1">
+						<a href="">联系我们</a>
+					</div>
+				</div>
+
+				<div class="zhandian-bommot1">
+					<div class="zhandian-wenzi">
+						<span class="">关注我们</span>
+					</div>
+					<div href="" class="zhandian-wenzi1">
+						<a href="">新浪微博</a>
+					</div>
+					<div href="" class="zhandian-wenzi1">
+						<a href="">小米部落</a>
+					</div>
+					<div href="" class="zhandian-wenzi1">
+						<a href="">官方微信</a>
+					</div>
+				</div>
+
+				<div class="zhandian-bommot1">
+					<div class="zhandian-wenzi">
+						<span class="">特色服务</span>
+					</div>
+					<div href="" class="zhandian-wenzi1">
+						<a href="">F码通道</a>
+					</div>
+					<div href="" class="zhandian-wenzi1">
+						<a href="">礼物码</a>
+					</div>
+					<div href="" class="zhandian-wenzi1">
+						<a href="">防伪查询</a>
+					</div>
+				</div>
+				
+				<div class="bommot2">
+					<p class="zhandian-shuzi">400-100-5678</p>
+					<div class="zhandian-shuzi1">
+						<p>周一至周日 8:00-18:00</p>
+						<p>（仅收市话费）</p>
+					</div>
+					<div class="zhandian-shuzi2">
+						<a href="">24小时在线客服</a>
+					</div>
+				</div>
+			</div>
+			<div class="zhandianxia">
+				<div class="zhandianxia-nk">
+					<div class="zhandianlogo">
+						<img src="img/mi-logo.png" alt="">
+					</div>
+					<div class="zhandianxia-left">
+						<p class="zhandianxia-left1">
+							<a href="">小米商城</a>
+							<span>│</span>
+
+							<a href="">MIUI</a>
+							<span>│</span>
+
+							<a href="">米家</a>
+							<span>│</span>
+
+							<a href="">米聊</a>
+							<span>│</span>
+
+							<a href="">多看</a>
+							<span>│</span>
+
+							<a href="">路由器</a>
+							<span>│</span>
+
+							<a href="">米粉卡</a>
+							<span>│</span>
+
+							<a href="">小米天猫店</a>
+							<span>│</span>
+
+							<a href="">隐私政策</a>
+							<span>│</span>
+
+							<a href="">问题反馈</a>
+							<span>│</span>
+							<a href="">Select Region</a>
+						</p>
+
+						<p class="zhandianxia-left1">
+							<a class="zhandianxia-left2" href="">
+								<span>mi.com</span>
+							</a>
+							<span>京ICP证110507号</span>
+
+							<a class="zhandianxia-left2" href=""> 京ICP备10046444号</a>
+
+							<a class="zhandianxia-left2" href=""> 京公网安备11010802020134号</a>
+
+							<a class="zhandianxia-left2" href="">京网文[2014]0059-0009号 </a>
+						</p>
+
+						<p class="zhandianxia-left1">
+							<span>违法和不良信息举报电话：185-0130-1238，本网站所列数据，除特殊说明，所有数据均出自我司实验室测试</span>
+						</p>
+					</div>
+					<div class="zhandianxia-right">
+						<div class="zhandianxia-img">
+							<a href="">
+								<img src="img/zd5.png" alt="">
+							</a>
+						</div>
+						<div class="zhandianxia-img">
+							<a href="">
+								<img src="img/zd4.png" alt="">
+							</a>
+						</div>
+
+						<div class="zhandianxia-img">
+							<a href="">
+								<img src="img/zd3.png" alt="">
+							</a>
+						</div>
+
+						<div class="zhandianxia-img">
+							<a href="">
+								<img src="img/zd2.png" alt="">
+							</a>
+						</div>
+
+						<div class="zhandianxia-img">
+							<a href="">
+								<img src="img/zd1.png" alt="">
+							</a>
+						</div>
+						
+					</div>
+				</div>
+				<div class="zhandianxia-nkx">
+					<span>探索黑科技，小米为发烧而生！</span>
+				</div>
+			</div>
+		</div>	
+	</div>
+	<!-- 站点结束 -->
 
 </body>
 </html>
+<script src="js/jquery.js" =""></script>
+<script src="js/swiper.min.js" =""></script>
+<script>        
+  var mySwiper1 = new Swiper ('#swiper1', {
+    loop: true,
+    autoplay:true,
+    effect : 'fade',
+    
+    // 如果需要分页器
+    pagination: {
+      el: '.swiper-pagination',
+      clickable :true,
+    },
+    
+    // 如果需要前进后退按钮
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    
+  }) 
+
+
+  var mySwiper2 = new Swiper ('#swiper2', {
+    loop: true,
+
+// 如果需要分页器
+    pagination: {
+      el: '.swiper-pagination',
+      clickable :true,
+    },
+    
+    // 如果需要前进后退按钮
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    }, 
+
+   }) 
+  var mySwiper3 = new Swiper ('#swiper3', {
+    loop: true,
+
+// 如果需要分页器
+    pagination: {
+      el: '.swiper-pagination',
+      clickable :true,
+    },
+    
+    // 如果需要前进后退按钮
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },       
+  })    
+
+  var mySwiper4 = new Swiper ('#swiper4', {
+    loop: true,
+
+// 如果需要分页器
+    pagination: {
+      el: '.swiper-pagination',
+      clickable :true,
+    },
+    
+    // 如果需要前进后退按钮
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },       
+  })     
+
+  var mySwiper5 = new Swiper ('#swiper5', {
+    loop: true,
+
+// 如果需要分页器
+    pagination: {
+      el: '.swiper-pagination',
+      clickable :true,
+    },
+    
+    // 如果需要前进后退按钮
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },       
+  })          
+  </script>
+
+      
+ 
