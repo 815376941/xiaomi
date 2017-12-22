@@ -111,6 +111,7 @@ img{
 .nav-right1 input{
 	width: 241px;
 	height: 46px;
+	padding-left: 20px;
 	background-color: #fff;
 	border: 0;
 	box-sizing: border-box;
@@ -345,6 +346,9 @@ img{
 	margin-left: 30px;
 	font-size: 16px;
 	color: #424242;
+}
+.jiadian-xuan span:hover{
+	color: orange;
 }
 .jiadian-xuan .jiadian-xuan-active{
 	color: orange;
@@ -595,6 +599,15 @@ img{
     margin: 0 10px 18px;
     color: orange;
 }
+.neirong-title:nth-child(2){
+	color: #83C44E;
+}
+.neirong-title:nth-child(3){
+	color: #E53935;
+}
+.neirong-title:nth-child(4){
+	color: #5EB3F6;
+}
 .neirong-title1{
 	font-size: 20px;
     font-weight: 400;
@@ -660,31 +673,7 @@ img{
 	text-align: center;
 	line-height: 69px;
 }
-.neirong-dian{
-	width: 90px;
-    height: 30px;
-    margin: 0 auto;
-}
-.dian1{
-	width: 30px;
-    height: 30px;
-    float: left;
-    margin: 0 auto;
-}
-.dian2{
-	width: 6px;
-    height: 6px;
-    background-color: #b0b0b0;
-    border-radius: 3px;
-    margin: 0 auto;
-    margin-top: 12px;
-}
-.dian3{
-	border: 2px solid orange;
-    border-radius: 5px;
-    margin-top: 10px;
-    background-color: white;
-}
+
 .neirong-item:nth-child(5){
 	margin: 0
 }
@@ -759,6 +748,24 @@ img{
 	width: 296px;
     height: 180px;
     margin: 0 0 28px;
+    position: relative;
+
+}
+.shipin-icon{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	left: 20px;
+   bottom: 5px;
+}
+.shipin-img .icon-Play_big_x{
+	font-size: 40px;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+}
+.shipin-img:hover .icon-Play_big_x{
+	color: orange;
 }
 .shipin-title{
     font-size: 14px;
@@ -776,6 +783,7 @@ img{
     color: #b0b0b0;
     text-align: center;
 }
+
 .banner{
 	width: 1226px;
 	height: 460px;
